@@ -1,0 +1,83 @@
+body {
+    line-height: 30px;
+    background-color: #FFDDE5;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.content-divider {
+    padding-top: 50px;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    font-family: 'Italiana', serif;
+    font-size: 24px;
+    color: #aaa;
+}
+
+.row {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    font-family: 'Italiana', serif;
+    padding: 2%;
+}
+
+.imageHeader {
+    width: 300px;
+}
+
+.image-container {
+    text-align: end;
+}
+
+.text-container {
+    font-family: 'Italiana', serif;
+    color: #aaa;
+    font-size: 18px;
+    text-align: start;
+}
+
+.button-container {
+    text-align: center;
+    align-content: center;
+    padding: auto;
+    background-color: #FFF2F2;
+    border: 3px solid #FFC9D6;
+    border-radius: 28px;
+    width: 100%;
+    font-family: 'Ingrid Darling', cursive;
+    font-size: 38px;
+    color: #aaaaaa;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.button-text {
+    align-self: center;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+@media (max-width: 769px) {
+    .image-container {
+        text-align: center;
+    }
+
+    .text-container {
+        text-align: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .image-container {
+        text-align: center;
+    }
+
+    .text-container {
+        text-align: center;
+    }
+}
