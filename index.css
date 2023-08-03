@@ -64,6 +64,15 @@ body {
     padding-bottom: 10px;
 }
 
+.button-container a {
+    text-decoration: none;
+    color: #aaaaaa;
+}
+
+.button-container:hover {
+    background-color: #FFC9D6;
+}
+
 @media (max-width: 769px) {
     .image-container {
         text-align: center;
